@@ -12,7 +12,7 @@ public:
 		this->sname = sname;
 		this->age = age;
 	}
-	string getName() { return name; }
-	string getSname() { return sname; }
-	int getAge() { return age; }
+	string getName() const{ return this->name; }
+	string getSname()const { return this->sname; }
+	int getAge()const { return this->age; }
 };

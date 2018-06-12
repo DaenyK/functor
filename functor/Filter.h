@@ -15,7 +15,7 @@ public:
 		this->ivalue;
 	}
 
-	bool operator() (Human h) {
+	bool operator() ( Human h) {
 		if (this->key == "name")
 		{
 			if (this->svalue == h.getName())
